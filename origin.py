@@ -11,6 +11,10 @@ and return words that relate to heritability. The script should return the line 
 Let's see how this goes
 """
 
+def completion_text():
+    print('output file should be labelled herit_occurences.txt')
+
+
 if  __name__ == '__main__':
 
 
@@ -31,4 +35,5 @@ if  __name__ == '__main__':
     print('dummy.txt is closed?', in_stream.closed)
     print('output.txt is closed?', out_stream.closed)
 
-    print('output file should be labelled herit_occurences.txt')
+    completion_text()
+
